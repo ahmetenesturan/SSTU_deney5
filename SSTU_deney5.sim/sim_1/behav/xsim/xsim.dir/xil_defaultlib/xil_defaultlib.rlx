@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.ip_user_files/bd/design_1/ip/design_1_blk_mem_gen_0_1/sim/design_1_blk_mem_gen_0_1.v,1669278084,verilog,,C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.ip_user_files/bd/design_1/sim/design_1.v,,design_1_blk_mem_gen_0_1,,,,,,,,
+C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.ip_user_files/bd/design_1/sim/design_1.v,1669278084,verilog,,C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.srcs/sim_1/new/main_tb.v,1669279420,verilog,,,,BRAM_top_tb;D_FF_beh_tb;D_FF_tb;Master_Slave_D_FF_tb;SR_Latch_tb;eight_bit_register_tb,,,,,,,,
+C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,1669278084,verilog,,C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.srcs/sim_1/new/main_tb.v,,design_1_wrapper,,,,,,,,
+C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.srcs/sources_1/imports/SSTU_lib/SSI_Library.v,1666207455,verilog,,C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.srcs/sources_1/new/main.v,,TRI;and_gate;nand_gate;nor_gate;not_gate;or_gate;xnor_gate;xor_gate,,,,,,,,
+C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.srcs/sources_1/new/main.v,1669277210,verilog,,C:/Users/ahmet/Projects/Vivado/sstu/SSTU_deney5/SSTU_deney5.srcs/sim_1/new/main_tb.v,,D_FF;D_FF_beh;Master_Slave_D_FF;SR_Latch;eight_bit_register;ram,,,,,,,,

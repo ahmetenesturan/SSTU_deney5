@@ -1,0 +1,119 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xE2084551E4A5F3A6",
+      "device": "xc7a50ticsg324-1L",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "blk_mem_gen_0": ""
+    },
+    "ports": {
+      "addra": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "clka": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clka",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "douta": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "wea": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "design_1_blk_mem_gen_0_1",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../../../../../memory.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Read_Width_A": {
+            "value": "8"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "16"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      }
+    },
+    "nets": {
+      "addra_1": {
+        "ports": [
+          "addra",
+          "blk_mem_gen_0/addra"
+        ]
+      },
+      "clka_1": {
+        "ports": [
+          "clka",
+          "blk_mem_gen_0/clka"
+        ]
+      },
+      "wea_1": {
+        "ports": [
+          "wea",
+          "blk_mem_gen_0/wea"
+        ]
+      },
+      "blk_mem_gen_0_douta": {
+        "ports": [
+          "blk_mem_gen_0/douta",
+          "douta"
+        ]
+      }
+    }
+  }
+}
